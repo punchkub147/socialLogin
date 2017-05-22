@@ -24,7 +24,7 @@ if ($gClient->getAccessToken()) {
 
         require 'connect_db.php';
         $sql = "SELECT social_id
-                FROM 13570110
+                FROM u13570110
                 WHERE social_id = '$id';
                 ";
                 $result = $mysqli->query($sql);
@@ -34,7 +34,7 @@ if ($gClient->getAccessToken()) {
                             //echo "Logined by Google";
                         }
                     }else{
-                        $sql = "INSERT INTO 13570110(social_id,name,first_name,last_name,email,link,gender,locale,picture)
+                        $sql = "INSERT INTO u13570110(social_id,name,first_name,last_name,email,link,gender,locale,picture)
                                 VALUES ('$id','$name','$first_name','$last_name','$email','$link','$gender','$locale','$pictureURL')
                         ";
                         if ($mysqli->query($sql) === TRUE) {
