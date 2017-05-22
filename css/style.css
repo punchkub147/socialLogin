@@ -1,0 +1,77 @@
+body{
+	background: #eee;
+	font-family: sans-serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+#google{
+	background: #d34836;
+}
+#facebook{
+	background: #3b5998;
+}
+.profile{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0px 0 10px #ccc;
+}
+.profileImage{
+	margin: 0 auto;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0 10px #ccc;
+	margin-top: -50px;
+}
+.profile img{
+	width: 100%;
+	border-radius: 10px;
+}
+.detail{
+	text-align: left;
+}
+.logout{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	background: #ccc;
+	padding: 10px;
+	text-align: center;
+}
+.btn{
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.btn a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.logout:hover{
+	box-shadow: 0px 0 10px #ccc;
+}
+.login{
+	width: 300px;
+	height: 100vh
+	margin: 0 auto;
+	text-align: center;
+	background: #3b5998;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+}
+.frame-login{
+	width: 180px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
